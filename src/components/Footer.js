@@ -28,9 +28,15 @@ const Footer = () => {
 
   return (
     <BottomNavigation className={classes.bottomNavContainer}>
-      <BottomNavigationAction icon={<LinkedInIcon />} className={classes.root} />
-      <BottomNavigationAction icon={<GitHubIcon />} className={classes.root} />
-      <BottomNavigationAction icon={<Instagram />} className={classes.root} />
+      <a href="https://www.linkedin.com/in/andriipetryk/">
+        <BottomNavigationAction icon={<LinkedInIcon />} className={classes.root} />
+      </a>
+      <a href="https://github.com/AndriiPetryk">
+        <BottomNavigationAction icon={<GitHubIcon />} className={classes.root} />
+      </a>
+      <a href="https://www.instagram.com/">
+        <BottomNavigationAction icon={<Instagram />} className={classes.root} />
+      </a>
     </BottomNavigation>
   );
 };

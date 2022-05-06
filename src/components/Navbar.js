@@ -54,7 +54,7 @@ const menuItems = [
   { listIcon: <AssignmentInd />, listText: "Resume", listPath: "/resume" },
   { listIcon: <AssignmentInd />, listText: "About me", listPath: "/about" },
   // { listIcon: <Apps />, listText: "Portfolio", listPath: "/portfolio" },
-  // { listIcon: <ContactMail />, listText: "Contact", listPath: "/contact" },
+  { listIcon: <ContactMail />, listText: "Contact", listPath: "/contact" },
 ];
 
 const Navbar = () => {

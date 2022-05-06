@@ -68,7 +68,7 @@ const Contact = () => {
       <Grid container justify="center">
         <Box component="form" className={classes.form}>
           <Typography variant="h5" className={classes.heading}>
-            Hire or Contact me...
+            Hire me...
           </Typography>
           <InputField
             fullWidth={true}
@@ -97,7 +97,7 @@ const Contact = () => {
             endIcon={<Send />}
             className={classes.button}
           >
-            Contact Me
+            Hire Me
           </Button>
         </Box>
       </Grid>

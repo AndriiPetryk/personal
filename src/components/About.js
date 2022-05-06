@@ -3,6 +3,8 @@ import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import {Container} from "@material-ui/core";
 import Box from "@material-ui/core/Box";
+import Button from "@material-ui/core/Button";
+import CV from "../files/Andrii_Petryk_Resume.pdf";
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
@@ -108,7 +110,7 @@ const useStyles = makeStyles((theme) => ({
   },
   subtitle1: {
     color: "tan",
-    height: "100vh",
+    height: "100%",
   },
 }));
 
@@ -139,6 +141,17 @@ const About = () => {
           <strong>-</strong> HTML5, CSS3, LESS/SASS/SCSS <br/>
           <strong>-</strong> Webpack <br/>
           <strong>-</strong> GIT, JIRA, Trello, Slack <br/>
+          <a
+            href={CV}
+            download="Andrii_Petryk_Frontend_CV"
+            target='_blank'
+            rel="noopener noreferrer"
+            style={{ display: "block", textDecoration: "none", textAlign: "center"}}
+          >
+            <Button variant="contained" color="primary">
+              Download CV
+            </Button>
+          </a>
         </Typography>
       </Container>
     </Box>
